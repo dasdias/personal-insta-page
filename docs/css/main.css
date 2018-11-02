@@ -7,13 +7,17 @@ body {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: 400;
 	color: #000000;
-	background-color: #424242;
+	background: #BB5BFF;
+background: -webkit-linear-gradient(bottom right, #BB5BFF, #6982F6);
+background: -moz-linear-gradient(bottom right, #BB5BFF, #6982F6);
+background: linear-gradient(bottom right, #BB5BFF, #6982F6);
+/* 	background-color: #424242;
 
-	background: #F8D353;
-	background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
-	background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
-	background: linear-gradient(top left, #F8D353, #FF5C5A);
-
+background: #F8D353;
+background: -webkit-linear-gradient(top left, #F8D353, #FF5C5A);
+background: -moz-linear-gradient(top left, #F8D353, #FF5C5A);
+background: linear-gradient(top left, #F8D353, #FF5C5A);
+ */
 /*	background: #B0D09C;
 	background: -webkit-linear-gradient(top left, #B0D09C, #4B8244);
 	background: -moz-linear-gradient(top left, #B0D09C, #4B8244);
