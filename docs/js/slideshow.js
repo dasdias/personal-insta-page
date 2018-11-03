@@ -5,12 +5,12 @@ $(document).ready(function(){
 	showPhotos();
 
 	function showPhotos(){
-		var slides = $('#instafeed img');
-		console.log(slides);
-		console.log(slides.length);
+		var slides = $('#instafeed a');
+		// console.log(slides);
+		// console.log(slides.length);
 
 		for (var i = 0; i< slides.length; i++) {
-			console.log(i);
+			// console.log(i);
 			$(slides[i]).hide();
 		}
 
@@ -19,7 +19,7 @@ $(document).ready(function(){
 		if (slideIndex > slides.length) {
 			slideIndex = 1;
 		}
-		console.log(slideIndex);
+		// console.log(slideIndex);
 
 		$(slides[slideIndex-1]).show();
 

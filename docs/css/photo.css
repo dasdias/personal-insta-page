@@ -13,12 +13,12 @@
 	height: 620px;
 	overflow: hidden;
 	transition: opacity 1s ease-in, box-shadow 3s ease-in;
-	/*opacity: 0;*/
+	opacity: 0;
 }
 
- .instafeed a {
-	display: none;
-} 
+  .instafeed a {
+  	display: none;
+  }  
 
 .shadowed {
 	opacity: 1;
