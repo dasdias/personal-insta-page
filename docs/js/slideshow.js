@@ -5,7 +5,7 @@ $(document).ready(function(){
 	showPhotos();
 
 	function showPhotos(){
-		var slides = $('.photo img');
+		var slides = $('#instafeed img');
 		console.log(slides);
 		console.log(slides.length);
 
