@@ -3,11 +3,12 @@ $(document).ready(function(){
 	var slideIndex = 0;
 	var slideIndex2 = 0;
 
-	showPhotosInsta();
+	showPhotos();
+	
 
-	function showPhotosInsta(){
+	function showPhotos(){
 		var slides = $('#instafeed a');
-		console.log(slides);
+		// console.log(slides);
 		// console.log(slides.length);
 
 		for (var i = 0; i< slides.length; i++) {
@@ -24,12 +25,12 @@ $(document).ready(function(){
 
 		$(slides[slideIndex-1]).show();
 
-		setTimeout(showPhotosInsta,1000);
+		setTimeout(showPhotos,1000);
 	};
 
-	showPhotos();
+	showPhotosInsta();
 
-	function showPhotos(){
+	function showPhotosInsta(){
 		var slides = $('.photo2 img');
 		console.log(slides);
 		// console.log(slides.length);
@@ -48,7 +49,7 @@ $(document).ready(function(){
 
 		$(slides[slideIndex2-1]).show();
 
-		setTimeout(showPhotos,1000);
+		setTimeout(showPhotosInsta,1000);
 	};
 	
 });
