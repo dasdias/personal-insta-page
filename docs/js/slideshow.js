@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 		$(slides[slideIndex-1]).show();
 
-		setTimeout(showPhotos,1000);
+		setTimeout(showPhotos,1200);
 	}
 	
 });
